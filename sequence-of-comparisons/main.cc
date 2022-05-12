@@ -1,3 +1,5 @@
+// https://codeforces.com/problemset/problem/1571/A
+
 #include <iostream>
 #include <string>
 #include <sstream>
