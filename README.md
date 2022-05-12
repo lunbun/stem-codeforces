@@ -1,2 +1,3 @@
 # stem-codeforces
-stuff for stem
+stuff for my stem class
+dont use this for anything
