@@ -16,15 +16,11 @@ int main() {
         int32_t customer_count;
         std::cin >> customer_count;
 
-        std::string line;
-        std::cin >> line;
-        std::stringstream ss(line);
-
         std::vector<int64_t> customer_coins;
         customer_coins.reserve(customer_count);
         for (int32_t j = 0; j < customer_count; ++j) {
             int64_t coins;
-            ss >> coins;
+            std::cin >> coins;
             customer_coins.push_back(coins);
         }
 
